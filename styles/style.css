@@ -30,6 +30,12 @@
   color: #ffffff;
 }
 /* header section styles start from here */
+.main{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
 header{
   background-image: url("../asserts/Hero-bg.png");
   background-size: cover;
@@ -55,3 +61,51 @@ header{
   padding-bottom: 36px;
 }
 /* header section styles end here */
+/* action section styles start from */
+.action-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 116px 0;
+ }
+.action-title{
+  font-weight: 600;
+  font-size: 42px;
+}
+.action-description{
+  color: #252432;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.action-img{
+  border-radius: 48px;
+}
+/* action section styles end */
+/* productive section styles start form here */
+.productive-container{
+  text-align: center;
+}
+.productive-items{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.productive-title{
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+  color: #252432;
+  padding-bottom: 40px;
+}
+
+.productive-item-number{
+  color: #4E47FF;
+  font-size: 80px;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+.productive-item-name{
+  color: #000000;
+  opacity: 50%;
+}
+/* productive section styles end here */
