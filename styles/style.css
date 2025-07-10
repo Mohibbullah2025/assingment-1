@@ -147,3 +147,22 @@ header{
 .user-type{
   margin: 16px 0;
 }
+/* Focus Better Section Styles Start */
+.focus-better-container{
+ text-align: center;
+ margin-bottom: 116px;
+}
+.focus-better-title{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.btn-focus{
+  display: block;
+  margin: 16px auto;  
+}
+.focus-better-img{
+  border-radius: 48px;
+}
+
+/* Focus Better Section Styles End */
