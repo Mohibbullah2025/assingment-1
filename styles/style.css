@@ -66,7 +66,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 116px 0;
+  margin: 116px 0;
  }
 .action-title{
   font-weight: 600;
@@ -82,8 +82,13 @@ header{
 }
 /* action section styles end */
 /* productive section styles start form here */
-.productive-container{
+.productive-continer{
   text-align: center;
+  background-color:rgba(78,71,255,0.1);
+  border-radius: 24px;
+  padding: 50px 142px;
+  margin-bottom: 116px;
+
 }
 .productive-items{
   display: flex;
