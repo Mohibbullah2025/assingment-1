@@ -21,7 +21,10 @@
 .primary-color{
     color: #4E47FF;
 }
-
+.primary-btn:hover{
+  background-color: #4E47FF;
+  opacity: 50%;
+}
 .primary-btn{
   background-color: #4E47FF;
   border: none;
@@ -114,3 +117,33 @@ header{
   opacity: 50%;
 }
 /* productive section styles end here */
+/* User feedback section styls start from here */
+.user-feedback-container{
+  margin-bottom: 116px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.star-icon{
+  color: #FFB805;
+}
+.user-feedback-title{
+  text-align: center;
+  color: #252432;
+  font-weight: 600;
+  font-size: 42px;
+}
+/* User feedback section styls end here */
+
+.user-profile{
+  display: flex;
+  align-items: start;
+  margin-top: 16px;
+  gap: 8px;
+}
+.profile-img{
+  border-radius: 50%;
+}
+.user-type{
+  margin: 16px 0;
+}
