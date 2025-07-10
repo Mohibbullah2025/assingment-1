@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Google Fonts */
+
+.raleway-primary-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-logo-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Common styles */
+
+.primary-color{
+    color: #4E47FF;
+}
+
+.primary-btn{
+  background-color: #4E47FF;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+/* header section styles start from here */
+header{
+  background-image: url("../asserts/Hero-bg.png");
+  background-size: cover;
+}
+.nav-list-container{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 50px 150px;
+
+}
+.logo{
+  font-weight: 600;
+  font-size: 34px;
+}
+.banner-container{
+  text-align: center;
+  font-size: 48px;
+  padding:150px 0;
+}
+.banner-title{
+  padding-bottom: 36px;
+}
+/* header section styles end here */
