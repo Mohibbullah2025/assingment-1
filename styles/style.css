@@ -33,6 +33,7 @@
   color: #ffffff;
 }
 /* header section styles start from here */
+
 .main{
   max-width: 1140px;
   margin: 0 auto;
@@ -166,3 +167,29 @@ header{
 }
 
 /* Focus Better Section Styles End */
+/* get in touch section style start from here */
+.get-in-touch-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 116px;
+}
+.get-in-touch-title{
+  font-weight: 600;
+  font-size: 80px;
+}
+.get-in-touch-input{
+  border: 1px solid #D6DDED;
+  border-radius: 10px;
+  padding: 20px 32px;
+  margin-bottom: 18px;
+}
+form  label{
+  font-size: 18px;
+
+}
+.get-in-touch-btn{
+ width: 100%;
+
+}
+/* get in touch section style end here */
