@@ -193,3 +193,29 @@ form  label{
 
 }
 /* get in touch section style end here */
+/* footer section styles start from here */
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #8987A1;
+  margin-bottom: 116px;
+}
+.footer-link-container{
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+  margin-top: 16px;
+
+}
+footer ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+.footer-logo{
+  font-size: 100px;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+/* footer section styles end here */
